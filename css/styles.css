@@ -30,9 +30,14 @@
   --beauty-landing-2-5: #747272;
   --beauty-landing-2-background: #FFF;  
 }
-
 /* Base */
+
+* {
+  box-sizing: border-box;
+}
+
 body{
+  margin: 0;
   color: var(--beauty-landing-2-c1);
   font-family: 'Roboto', sans-serif;    
   font-size: 18px;
